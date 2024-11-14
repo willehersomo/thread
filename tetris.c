@@ -140,8 +140,9 @@ void mesclar_tetris(tetris* peca) {
 void verificar_linhas_completas() {
     int i, j, k, l; 
     int linhas_completas = 0;
-    int completo =1;
+    int completo;
     for (i = 0; i < ALTURA; i++) {
+        completo=1;
         for (j = 0; j < BASE; j++) {
             if (tela[i][j] == 0) {
                 completo = 0;
