@@ -1,11 +1,3 @@
-/*Desenvolvi este projeto como parte da disciplina de Sistemas Operacionais, com foco em conceitos práticos de gerenciamento de threads, sincronização e controle de concorrência. O código apresenta uma adaptação de um jogo clássico com funcionalidades multithread, utilizando a biblioteca POSIX Threads (pthreads) para criar um ambiente dinâmico e interativo.
-
-O projeto inclui:
-
-    Controle e movimentação de peças do jogo utilizando múltiplas threads.
-    Manipulação direta da entrada do usuário para interação em tempo real.
-    Gerenciamento de recursos compartilhados com mutexes para garantir a integridade de dados.
-    Lógica de renderização de tela e colisão de objetos implementada com cuidado para explorar aspectos de sincronização em sistemas concorrentes.*/
 
 #include <stdlib.h>
 #include <pthread.h>
